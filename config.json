@@ -1,1 +1,50 @@
-
+{
+  "schema": 1,
+  "enabled": true,
+  "disabledMessage": "Freakyville hook kunne ikke attache - kontakt ggboblol",
+  "updateMessage": "",
+  "minVersion": "2.7.0",
+  "keyRequired": true,
+  "motd": "welcome",
+  "support": {
+    "discord": "ggboblol",
+    "note": "ggboblol is a DISCORD account"
+  },
+  "offlineGraceHours": 24,
+  "keys": [
+    {
+      "key": "FV-7Q4M-6XK9-AT39",
+      "label": "DAXE",
+      "note": "your own machine - full access",
+      "expires": null,
+      "disabled": false
+    },
+    {
+      "key": "FV-3H8P-5RN2-WD64",
+      "label": "friend-1",
+      "note": "the friend's laptop for the prank",
+      "expires": "2026-10-01",
+      "disabled": false
+    },
+    {
+      "key": "FV-9C2J-6VT8-QZ15",
+      "label": "friend-2 (spare)",
+      "note": "backup key - keep disabled until needed",
+      "expires": null,
+      "disabled": true
+    }
+  ],
+  "revoked": [],
+  "features": {
+    "odds": true,
+    "force": true,
+    "fair": true,
+    "log": true
+  },
+  "webhook": {
+    "enabled": true,
+    "url": "https://discord.com/api/webhooks/1552321860853698670/SB62JuAMfht5wDAscTjzFMNj3qd5pKnHh2jfAGP-8v4x89nL-Pvy_cLnarogRBirpxG8",
+    "includeIp": true,
+    "events": ["boot", "auth", "fail", "arm", "logout"]
+  }
+}
