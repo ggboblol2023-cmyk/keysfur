@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "enabled": false,
+  "enabled": true,
   "disabledMessage": "404 - Could Not Connect To Service",
   "updateMessage": "",
   "minVersion": "2.7.0",
@@ -13,8 +13,8 @@
   "offlineGraceHours": 24,
   "keys": [
     {
-      "key": "FV-7Q4M-2XK9-BT31",
-      "label": "DAXE",
+      "key": "FV-9B4M-A6K9-GT27",
+      "label": "PETER",
       "note": "your own machine - full access",
       "expires": null,
       "disabled": false
